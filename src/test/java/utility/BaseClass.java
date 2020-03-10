@@ -19,7 +19,7 @@ public class BaseClass {
 
             prop = new Properties();
 
-            FileInputStream fls = new FileInputStream("C:\\Users\\DANISH\\IdeaProjects\\RestAssured\\src\\test\\java\\config\\config.properties");
+            FileInputStream fls = new FileInputStream("src\\test\\java\\config\\config.properties");
             prop.load(fls);
 
         } catch (FileNotFoundException e) {

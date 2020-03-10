@@ -5,10 +5,11 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import utility.BaseClass;
 
 import java.io.IOException;
@@ -21,23 +22,32 @@ public class GetManufacturer {
 
     Response response;
     JsonPath jsonPathEvaluator;
-  String  path= "C:\\Users\\DANISH\\IdeaProjects\\RestAssured\\TestData_ManuFacturer.xlsx";
+  //  String  path= "C:\\Users\\DANISH\\IdeaProjects\\RestAssured\\TestData_ManuFacturer.xlsx";
+   String path= "TestData_ManuFacturer.xlsx";
     Object [][]o;;
 
-    @BeforeMethod
+    private static final Logger LOGGER = LogManager.getLogger("GetManufacturer.class" );
+
+    @BeforeClass
     public void getURL() {
+        PropertyConfigurator.configure("src\\test\\java\\config\\log4J.properties");
         BaseClass.init();
         RestAssured.baseURI =  BaseClass.prop.getProperty("baseURL");
         RequestSpecification httpRequest = RestAssured.given();
         response = httpRequest.get(BaseClass.prop.getProperty("manufacturer"));
         jsonPathEvaluator = response.jsonPath();
+        LOGGER.info("Validating Manufacturer");
+        LOGGER.info(response.body().print());
 
     }
 
     @Test(priority=1)
     public void validateRespHeadManu(){
-        Assert.assertEquals(200, response.getStatusCode());
+        LOGGER.info("Validate Response Header...");
+       Assert.assertEquals( response.getStatusCode(), 200);
         Assert.assertTrue( true,response.getHeaders().getValue("access-control-max-age" ));
+
+
 
     }
 
@@ -45,28 +55,45 @@ public class GetManufacturer {
 
     @Test(priority = 2)
      public void validateBodyHeadManu(){
+        LOGGER.info("Validating Body Header..");
+        Assert.assertEquals(jsonPathEvaluator.get("pageSize"), 2147483647);
 
-        Assert.assertEquals(2147483647,jsonPathEvaluator.get("pageSize"));
 
     }
 
     @DataProvider(name = "readData")
 
     public Object[][] provideTestData() {
-
-        try {
+        LOGGER.info("Fetching Test Data..");
+            try {
             o = BaseClass.readTestData(path);
         } catch (IOException e) {
+                LOGGER.trace("Exception Occured..", e);
             e.printStackTrace();
+
+
         }
+
         return o;
     }
 
     @Test(priority=3, dataProvider = "readData")
     public void validateBodyManu(Object x , Object y) {
-        String code= (String)x;
+       String code= (String)x;
         String model= (String)y;
-        Assert.assertEquals(model,jsonPathEvaluator.get("wkda."+code));
+        LOGGER.info("Validating Body Content.." + code + ":" + model);
+        Assert.assertEquals(jsonPathEvaluator.get("wkda."+code), model);
 
     }
+
+    @AfterClass()
+
+   public void endofTest(){
+
+        LOGGER.info("****End of ManuFacturer Test****");
+
+    }
+
+
+
 }
