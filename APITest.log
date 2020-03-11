@@ -715,3 +715,209 @@
 2020-03-10 21:27:38,428 [main] INFO  GetManufacturer.class  - Validating Body Content..070:MG Rover
 2020-03-10 21:27:38,445 [main] INFO  GetManufacturer.class  - Validating Body Content..071:Rover
 2020-03-10 21:27:38,461 [main] INFO  GetManufacturer.class  - ****End of ManuFacturer Test****
+2020-03-11 06:38:30,075 [main] INFO  GetManufacturer.class  - Validating Manufacturer
+2020-03-11 06:38:30,126 [main] INFO  GetManufacturer.class  - {"page":0,"pageSize":2147483647,"totalPageCount":1,"wkda":{"020":"Abarth","040":"Alfa Romeo","042":"Alpina","057":"Aston Martin","060":"Audi","095":"Barkas","107":"Bentley","130":"BMW","125":"Borgward","145":"Brilliance","141":"Buick","150":"Cadillac","157":"Caterham","160":"Chevrolet","170":"Chrysler","190":"Citroen","191":"Corvette","189":"Cupra","194":"Dacia","195":"Daewoo","210":"Daihatsu","230":"Dodge","235":"DS Automobiles","250":"e.GO","277":"Ferrari","280":"Fiat","285":"Ford","340":"Honda","345":"Hyundai","357":"Infiniti","362":"Isuzu","365":"Iveco","380":"Jaguar","390":"Jeep","425":"Kia","460":"Lada","465":"Lamborghini","470":"Lancia","730":"Land Rover","487":"Lexus","502":"Lotus","520":"MAN","522":"Maserati","530":"Maybach","550":"Mazda","570":"Mercedes-Benz","070":"MG Rover","580":"MINI","590":"Mitsubishi","225":"Nissan","650":"Opel","670":"Peugeot","895":"Piaggio (Vespa)","700":"Pontiac","710":"Porsche","715":"Proton","720":"Renault","727":"Rolls Royce","071":"Rover","740":"Saab","790":"Seat","800":"Skoda","560":"Smart","810":"Ssangyong","826":"StreetScooter","820":"Subaru","830":"Suzuki","850":"Tata","853":"Tesla","860":"Toyota","865":"Trabant","870":"Triumph","905":"Volkswagen","910":"Volvo","930":"Wartburg","935":"Westfield","960":"Zastava"}}
+2020-03-11 06:38:30,191 [main] INFO  GetManufacturer.class  - Validate Response Header...
+2020-03-11 06:38:30,206 [main] INFO  GetManufacturer.class  - Validating Body Header..
+2020-03-11 06:38:32,669 [main] INFO  GetManufacturer.class  - Fetching Test Data..
+2020-03-11 06:38:35,436 [main] INFO  GetManufacturer.class  - Validating Body Content..107:Bentley
+2020-03-11 06:38:35,474 [main] INFO  GetManufacturer.class  - Validating Body Content..125:Borgward
+2020-03-11 06:38:35,497 [main] INFO  GetManufacturer.class  - Validating Body Content..130:BMW
+2020-03-11 06:38:35,509 [main] INFO  GetManufacturer.class  - Validating Body Content..141:Buick
+2020-03-11 06:38:35,523 [main] INFO  GetManufacturer.class  - Validating Body Content..145:Brilliance
+2020-03-11 06:38:35,534 [main] INFO  GetManufacturer.class  - Validating Body Content..150:Cadillac
+2020-03-11 06:38:35,563 [main] INFO  GetManufacturer.class  - Validating Body Content..157:Caterham
+2020-03-11 06:38:35,577 [main] INFO  GetManufacturer.class  - Validating Body Content..160:Chevrolet
+2020-03-11 06:38:35,593 [main] INFO  GetManufacturer.class  - Validating Body Content..170:Chrysler
+2020-03-11 06:38:35,623 [main] INFO  GetManufacturer.class  - Validating Body Content..189:Cupra
+2020-03-11 06:38:35,646 [main] INFO  GetManufacturer.class  - Validating Body Content..190:Citroen
+2020-03-11 06:38:35,667 [main] INFO  GetManufacturer.class  - Validating Body Content..191:Corvette
+2020-03-11 06:38:35,680 [main] INFO  GetManufacturer.class  - Validating Body Content..194:Dacia
+2020-03-11 06:38:35,708 [main] INFO  GetManufacturer.class  - Validating Body Content..195:Daewoo
+2020-03-11 06:38:35,742 [main] INFO  GetManufacturer.class  - Validating Body Content..210:Daihatsu
+2020-03-11 06:38:35,762 [main] INFO  GetManufacturer.class  - Validating Body Content..225:Nissan
+2020-03-11 06:38:35,815 [main] INFO  GetManufacturer.class  - Validating Body Content..230:Dodge
+2020-03-11 06:38:35,869 [main] INFO  GetManufacturer.class  - Validating Body Content..235:DS Automobiles
+2020-03-11 06:38:35,892 [main] INFO  GetManufacturer.class  - Validating Body Content..250:e.GO
+2020-03-11 06:38:35,911 [main] INFO  GetManufacturer.class  - Validating Body Content..277:Ferrari
+2020-03-11 06:38:35,925 [main] INFO  GetManufacturer.class  - Validating Body Content..280:Fiat
+2020-03-11 06:38:35,938 [main] INFO  GetManufacturer.class  - Validating Body Content..285:Ford
+2020-03-11 06:38:35,950 [main] INFO  GetManufacturer.class  - Validating Body Content..340:Honda
+2020-03-11 06:38:35,968 [main] INFO  GetManufacturer.class  - Validating Body Content..345:Hyundai
+2020-03-11 06:38:35,999 [main] INFO  GetManufacturer.class  - Validating Body Content..357:Infiniti
+2020-03-11 06:38:36,013 [main] INFO  GetManufacturer.class  - Validating Body Content..362:Isuzu
+2020-03-11 06:38:36,024 [main] INFO  GetManufacturer.class  - Validating Body Content..365:Iveco
+2020-03-11 06:38:36,038 [main] INFO  GetManufacturer.class  - Validating Body Content..380:Jaguar
+2020-03-11 06:38:36,077 [main] INFO  GetManufacturer.class  - Validating Body Content..390:Jeep
+2020-03-11 06:38:36,091 [main] INFO  GetManufacturer.class  - Validating Body Content..425:Kia
+2020-03-11 06:38:36,103 [main] INFO  GetManufacturer.class  - Validating Body Content..460:Lada
+2020-03-11 06:38:36,114 [main] INFO  GetManufacturer.class  - Validating Body Content..465:Lamborghini
+2020-03-11 06:38:36,126 [main] INFO  GetManufacturer.class  - Validating Body Content..470:Lancia
+2020-03-11 06:38:36,140 [main] INFO  GetManufacturer.class  - Validating Body Content..487:Lexus
+2020-03-11 06:38:36,155 [main] INFO  GetManufacturer.class  - Validating Body Content..502:Lotus
+2020-03-11 06:38:36,170 [main] INFO  GetManufacturer.class  - Validating Body Content..520:MAN
+2020-03-11 06:38:36,181 [main] INFO  GetManufacturer.class  - Validating Body Content..522:Maserati
+2020-03-11 06:38:36,192 [main] INFO  GetManufacturer.class  - Validating Body Content..530:Maybach
+2020-03-11 06:38:36,206 [main] INFO  GetManufacturer.class  - Validating Body Content..550:Mazda
+2020-03-11 06:38:36,217 [main] INFO  GetManufacturer.class  - Validating Body Content..560:Smart
+2020-03-11 06:38:36,231 [main] INFO  GetManufacturer.class  - Validating Body Content..570:Mercedes-Benz
+2020-03-11 06:38:36,242 [main] INFO  GetManufacturer.class  - Validating Body Content..580:MINI
+2020-03-11 06:38:36,257 [main] INFO  GetManufacturer.class  - Validating Body Content..590:Mitsubishi
+2020-03-11 06:38:36,270 [main] INFO  GetManufacturer.class  - Validating Body Content..650:Opel
+2020-03-11 06:38:36,276 [main] INFO  GetManufacturer.class  - Validating Body Content..670:Peugeot
+2020-03-11 06:38:36,304 [main] INFO  GetManufacturer.class  - Validating Body Content..700:Pontiac
+2020-03-11 06:38:36,315 [main] INFO  GetManufacturer.class  - Validating Body Content..710:Porsche
+2020-03-11 06:38:36,342 [main] INFO  GetManufacturer.class  - Validating Body Content..715:Proton
+2020-03-11 06:38:36,360 [main] INFO  GetManufacturer.class  - Validating Body Content..720:Renault
+2020-03-11 06:38:36,369 [main] INFO  GetManufacturer.class  - Validating Body Content..727:Rolls Royce
+2020-03-11 06:38:36,396 [main] INFO  GetManufacturer.class  - Validating Body Content..730:Land Rover
+2020-03-11 06:38:36,413 [main] INFO  GetManufacturer.class  - Validating Body Content..740:Saab
+2020-03-11 06:38:36,436 [main] INFO  GetManufacturer.class  - Validating Body Content..790:Seat
+2020-03-11 06:38:36,444 [main] INFO  GetManufacturer.class  - Validating Body Content..800:Skoda
+2020-03-11 06:38:36,466 [main] INFO  GetManufacturer.class  - Validating Body Content..810:Ssangyong
+2020-03-11 06:38:36,489 [main] INFO  GetManufacturer.class  - Validating Body Content..820:Subaru
+2020-03-11 06:38:36,516 [main] INFO  GetManufacturer.class  - Validating Body Content..826:StreetScooter
+2020-03-11 06:38:36,532 [main] INFO  GetManufacturer.class  - Validating Body Content..830:Suzuki
+2020-03-11 06:38:36,541 [main] INFO  GetManufacturer.class  - Validating Body Content..850:Tata
+2020-03-11 06:38:36,564 [main] INFO  GetManufacturer.class  - Validating Body Content..853:Tesla
+2020-03-11 06:38:36,589 [main] INFO  GetManufacturer.class  - Validating Body Content..860:Toyota
+2020-03-11 06:38:36,606 [main] INFO  GetManufacturer.class  - Validating Body Content..865:Trabant
+2020-03-11 06:38:36,617 [main] INFO  GetManufacturer.class  - Validating Body Content..870:Triumph
+2020-03-11 06:38:36,627 [main] INFO  GetManufacturer.class  - Validating Body Content..895:Piaggio (Vespa)
+2020-03-11 06:38:36,642 [main] INFO  GetManufacturer.class  - Validating Body Content..905:Volkswagen
+2020-03-11 06:38:36,652 [main] INFO  GetManufacturer.class  - Validating Body Content..910:Volvo
+2020-03-11 06:38:36,660 [main] INFO  GetManufacturer.class  - Validating Body Content..930:Wartburg
+2020-03-11 06:38:36,660 [main] INFO  GetManufacturer.class  - Validating Body Content..935:Westfield
+2020-03-11 06:38:36,675 [main] INFO  GetManufacturer.class  - Validating Body Content..960:Zastava
+2020-03-11 06:38:36,691 [main] INFO  GetManufacturer.class  - Validating Body Content..020:Abarth
+2020-03-11 06:38:36,706 [main] INFO  GetManufacturer.class  - Validating Body Content..040:Alfa Romeo
+2020-03-11 06:38:36,722 [main] INFO  GetManufacturer.class  - Validating Body Content..042:Alpina
+2020-03-11 06:38:36,737 [main] INFO  GetManufacturer.class  - Validating Body Content..057:Aston Martin
+2020-03-11 06:38:36,753 [main] INFO  GetManufacturer.class  - Validating Body Content..060:Audi
+2020-03-11 06:38:36,782 [main] INFO  GetManufacturer.class  - Validating Body Content..095:Barkas
+2020-03-11 06:38:36,815 [main] INFO  GetManufacturer.class  - Validating Body Content..070:MG Rover
+2020-03-11 06:38:36,825 [main] INFO  GetManufacturer.class  - Validating Body Content..071:Rover
+2020-03-11 06:38:36,847 [main] INFO  GetManufacturer.class  - ****End of ManuFacturer Test****
+2020-03-11 06:38:37,274 [main] INFO  GetMainType.class  - Validating MainType..
+2020-03-11 06:38:37,274 [main] INFO  GetMainType.class  - {"page":0,"pageSize":2147483647,"totalPageCount":0,"wkda":{}}
+2020-03-11 06:38:37,275 [main] INFO  GetMainType.class  - Validating Response Header...
+2020-03-11 06:38:37,275 [main] INFO  GetMainType.class  - Validate Body header
+2020-03-11 06:38:37,285 [main] INFO  GetMainType.class  - ****End of MainType Test****
+2020-03-11 06:38:37,719 [main] INFO  GetBuildDate.class  - Validating BuildDate..
+2020-03-11 06:38:37,720 [main] INFO  GetBuildDate.class  - {"wkda":{"2001":"2001","2002":"2002","2003":"2003","2004":"2004","2005":"2005","2006":"2006","2007":"2007","2008":"2008","2009":"2009","2010":"2010"}}
+2020-03-11 06:38:37,722 [main] INFO  GetBuildDate.class  - Validating Response Header...
+2020-03-11 06:38:37,724 [main] INFO  GetBuildDate.class  - Fetching Test Data..
+2020-03-11 06:38:37,853 [main] INFO  GetBuildDate.class  - Validating Body Content..2001:2001
+2020-03-11 06:38:37,872 [main] INFO  GetBuildDate.class  - Validating Body Content..2002:2002
+2020-03-11 06:38:37,887 [main] INFO  GetBuildDate.class  - Validating Body Content..2003:2003
+2020-03-11 06:38:37,902 [main] INFO  GetBuildDate.class  - Validating Body Content..2004:2004
+2020-03-11 06:38:37,916 [main] INFO  GetBuildDate.class  - Validating Body Content..2005:2005
+2020-03-11 06:38:37,933 [main] INFO  GetBuildDate.class  - Validating Body Content..2006:2006
+2020-03-11 06:38:37,945 [main] INFO  GetBuildDate.class  - Validating Body Content..2007:2007
+2020-03-11 06:38:37,955 [main] INFO  GetBuildDate.class  - Validating Body Content..2008:2008
+2020-03-11 06:38:37,968 [main] INFO  GetBuildDate.class  - Validating Body Content..2009:2009
+2020-03-11 06:38:37,982 [main] INFO  GetBuildDate.class  - Validating Body Content..2010:2010
+2020-03-11 06:38:37,992 [main] INFO  GetBuildDate.class  - ****End of BuildDate Test****
+2020-03-11 20:39:08,885 [main] INFO  GetManufacturer.class  - Validating Manufacturer
+2020-03-11 20:39:08,926 [main] INFO  GetManufacturer.class  - {"page":0,"pageSize":2147483647,"totalPageCount":1,"wkda":{"020":"Abarth","040":"Alfa Romeo","042":"Alpina","057":"Aston Martin","060":"Audi","095":"Barkas","107":"Bentley","130":"BMW","125":"Borgward","145":"Brilliance","141":"Buick","150":"Cadillac","157":"Caterham","160":"Chevrolet","170":"Chrysler","190":"Citroen","191":"Corvette","189":"Cupra","194":"Dacia","195":"Daewoo","210":"Daihatsu","230":"Dodge","235":"DS Automobiles","250":"e.GO","277":"Ferrari","280":"Fiat","285":"Ford","340":"Honda","345":"Hyundai","357":"Infiniti","362":"Isuzu","365":"Iveco","380":"Jaguar","390":"Jeep","425":"Kia","460":"Lada","465":"Lamborghini","470":"Lancia","730":"Land Rover","487":"Lexus","502":"Lotus","520":"MAN","522":"Maserati","530":"Maybach","550":"Mazda","570":"Mercedes-Benz","070":"MG Rover","580":"MINI","590":"Mitsubishi","225":"Nissan","650":"Opel","670":"Peugeot","895":"Piaggio (Vespa)","700":"Pontiac","710":"Porsche","715":"Proton","720":"Renault","727":"Rolls Royce","071":"Rover","740":"Saab","790":"Seat","800":"Skoda","560":"Smart","810":"Ssangyong","826":"StreetScooter","820":"Subaru","830":"Suzuki","850":"Tata","853":"Tesla","860":"Toyota","865":"Trabant","870":"Triumph","905":"Volkswagen","910":"Volvo","930":"Wartburg","935":"Westfield","960":"Zastava"}}
+2020-03-11 20:39:09,053 [main] INFO  GetManufacturer.class  - Validate Response Header...
+2020-03-11 20:39:09,080 [main] INFO  GetManufacturer.class  - Validating Body Header..
+2020-03-11 20:39:10,568 [main] INFO  GetManufacturer.class  - Fetching Test Data..
+2020-03-11 20:39:12,591 [main] INFO  GetManufacturer.class  - Validating Body Content..107:Bentley
+2020-03-11 20:39:12,665 [main] INFO  GetManufacturer.class  - Validating Body Content..125:Borgward
+2020-03-11 20:39:12,688 [main] INFO  GetManufacturer.class  - Validating Body Content..130:BMW
+2020-03-11 20:39:12,704 [main] INFO  GetManufacturer.class  - Validating Body Content..141:Buick
+2020-03-11 20:39:12,734 [main] INFO  GetManufacturer.class  - Validating Body Content..145:Brilliance
+2020-03-11 20:39:12,750 [main] INFO  GetManufacturer.class  - Validating Body Content..150:Cadillac
+2020-03-11 20:39:12,764 [main] INFO  GetManufacturer.class  - Validating Body Content..157:Caterham
+2020-03-11 20:39:12,780 [main] INFO  GetManufacturer.class  - Validating Body Content..160:Chevrolet
+2020-03-11 20:39:12,801 [main] INFO  GetManufacturer.class  - Validating Body Content..170:Chrysler
+2020-03-11 20:39:12,821 [main] INFO  GetManufacturer.class  - Validating Body Content..189:Cupra
+2020-03-11 20:39:12,840 [main] INFO  GetManufacturer.class  - Validating Body Content..190:Citroen
+2020-03-11 20:39:12,864 [main] INFO  GetManufacturer.class  - Validating Body Content..191:Corvette
+2020-03-11 20:39:12,914 [main] INFO  GetManufacturer.class  - Validating Body Content..194:Dacia
+2020-03-11 20:39:12,939 [main] INFO  GetManufacturer.class  - Validating Body Content..195:Daewoo
+2020-03-11 20:39:12,960 [main] INFO  GetManufacturer.class  - Validating Body Content..210:Daihatsu
+2020-03-11 20:39:12,986 [main] INFO  GetManufacturer.class  - Validating Body Content..225:Nissan
+2020-03-11 20:39:13,007 [main] INFO  GetManufacturer.class  - Validating Body Content..230:Dodge
+2020-03-11 20:39:13,021 [main] INFO  GetManufacturer.class  - Validating Body Content..235:DS Automobiles
+2020-03-11 20:39:13,049 [main] INFO  GetManufacturer.class  - Validating Body Content..250:e.GO
+2020-03-11 20:39:13,066 [main] INFO  GetManufacturer.class  - Validating Body Content..277:Ferrari
+2020-03-11 20:39:13,086 [main] INFO  GetManufacturer.class  - Validating Body Content..280:Fiat
+2020-03-11 20:39:13,102 [main] INFO  GetManufacturer.class  - Validating Body Content..285:Ford
+2020-03-11 20:39:13,118 [main] INFO  GetManufacturer.class  - Validating Body Content..340:Honda
+2020-03-11 20:39:13,144 [main] INFO  GetManufacturer.class  - Validating Body Content..345:Hyundai
+2020-03-11 20:39:13,165 [main] INFO  GetManufacturer.class  - Validating Body Content..357:Infiniti
+2020-03-11 20:39:13,183 [main] INFO  GetManufacturer.class  - Validating Body Content..362:Isuzu
+2020-03-11 20:39:13,200 [main] INFO  GetManufacturer.class  - Validating Body Content..365:Iveco
+2020-03-11 20:39:13,221 [main] INFO  GetManufacturer.class  - Validating Body Content..380:Jaguar
+2020-03-11 20:39:13,243 [main] INFO  GetManufacturer.class  - Validating Body Content..390:Jeep
+2020-03-11 20:39:13,273 [main] INFO  GetManufacturer.class  - Validating Body Content..425:Kia
+2020-03-11 20:39:13,298 [main] INFO  GetManufacturer.class  - Validating Body Content..460:Lada
+2020-03-11 20:39:13,316 [main] INFO  GetManufacturer.class  - Validating Body Content..465:Lamborghini
+2020-03-11 20:39:13,334 [main] INFO  GetManufacturer.class  - Validating Body Content..470:Lancia
+2020-03-11 20:39:13,354 [main] INFO  GetManufacturer.class  - Validating Body Content..487:Lexus
+2020-03-11 20:39:13,370 [main] INFO  GetManufacturer.class  - Validating Body Content..502:Lotus
+2020-03-11 20:39:13,384 [main] INFO  GetManufacturer.class  - Validating Body Content..520:MAN
+2020-03-11 20:39:13,414 [main] INFO  GetManufacturer.class  - Validating Body Content..522:Maserati
+2020-03-11 20:39:13,432 [main] INFO  GetManufacturer.class  - Validating Body Content..530:Maybach
+2020-03-11 20:39:13,444 [main] INFO  GetManufacturer.class  - Validating Body Content..550:Mazda
+2020-03-11 20:39:13,455 [main] INFO  GetManufacturer.class  - Validating Body Content..560:Smart
+2020-03-11 20:39:13,467 [main] INFO  GetManufacturer.class  - Validating Body Content..570:Mercedes-Benz
+2020-03-11 20:39:13,480 [main] INFO  GetManufacturer.class  - Validating Body Content..580:MINI
+2020-03-11 20:39:13,497 [main] INFO  GetManufacturer.class  - Validating Body Content..590:Mitsubishi
+2020-03-11 20:39:13,510 [main] INFO  GetManufacturer.class  - Validating Body Content..650:Opel
+2020-03-11 20:39:13,540 [main] INFO  GetManufacturer.class  - Validating Body Content..670:Peugeot
+2020-03-11 20:39:13,563 [main] INFO  GetManufacturer.class  - Validating Body Content..700:Pontiac
+2020-03-11 20:39:13,578 [main] INFO  GetManufacturer.class  - Validating Body Content..710:Porsche
+2020-03-11 20:39:13,592 [main] INFO  GetManufacturer.class  - Validating Body Content..715:Proton
+2020-03-11 20:39:13,617 [main] INFO  GetManufacturer.class  - Validating Body Content..720:Renault
+2020-03-11 20:39:13,626 [main] INFO  GetManufacturer.class  - Validating Body Content..727:Rolls Royce
+2020-03-11 20:39:13,640 [main] INFO  GetManufacturer.class  - Validating Body Content..730:Land Rover
+2020-03-11 20:39:13,659 [main] INFO  GetManufacturer.class  - Validating Body Content..740:Saab
+2020-03-11 20:39:13,703 [main] INFO  GetManufacturer.class  - Validating Body Content..790:Seat
+2020-03-11 20:39:13,723 [main] INFO  GetManufacturer.class  - Validating Body Content..800:Skoda
+2020-03-11 20:39:13,746 [main] INFO  GetManufacturer.class  - Validating Body Content..810:Ssangyong
+2020-03-11 20:39:13,830 [main] INFO  GetManufacturer.class  - Validating Body Content..820:Subaru
+2020-03-11 20:39:13,843 [main] INFO  GetManufacturer.class  - Validating Body Content..826:StreetScooter
+2020-03-11 20:39:13,866 [main] INFO  GetManufacturer.class  - Validating Body Content..830:Suzuki
+2020-03-11 20:39:13,879 [main] INFO  GetManufacturer.class  - Validating Body Content..850:Tata
+2020-03-11 20:39:13,890 [main] INFO  GetManufacturer.class  - Validating Body Content..853:Tesla
+2020-03-11 20:39:13,912 [main] INFO  GetManufacturer.class  - Validating Body Content..860:Toyota
+2020-03-11 20:39:13,936 [main] INFO  GetManufacturer.class  - Validating Body Content..865:Trabant
+2020-03-11 20:39:13,959 [main] INFO  GetManufacturer.class  - Validating Body Content..870:Triumph
+2020-03-11 20:39:13,970 [main] INFO  GetManufacturer.class  - Validating Body Content..895:Piaggio (Vespa)
+2020-03-11 20:39:13,984 [main] INFO  GetManufacturer.class  - Validating Body Content..905:Volkswagen
+2020-03-11 20:39:13,996 [main] INFO  GetManufacturer.class  - Validating Body Content..910:Volvo
+2020-03-11 20:39:14,031 [main] INFO  GetManufacturer.class  - Validating Body Content..930:Wartburg
+2020-03-11 20:39:14,063 [main] INFO  GetManufacturer.class  - Validating Body Content..935:Westfield
+2020-03-11 20:39:14,119 [main] INFO  GetManufacturer.class  - Validating Body Content..960:Zastava
+2020-03-11 20:39:14,137 [main] INFO  GetManufacturer.class  - Validating Body Content..020:Abarth
+2020-03-11 20:39:14,146 [main] INFO  GetManufacturer.class  - Validating Body Content..040:Alfa Romeo
+2020-03-11 20:39:14,162 [main] INFO  GetManufacturer.class  - Validating Body Content..042:Alpina
+2020-03-11 20:39:14,177 [main] INFO  GetManufacturer.class  - Validating Body Content..057:Aston Martin
+2020-03-11 20:39:14,200 [main] INFO  GetManufacturer.class  - Validating Body Content..060:Audi
+2020-03-11 20:39:14,220 [main] INFO  GetManufacturer.class  - Validating Body Content..095:Barkas
+2020-03-11 20:39:14,227 [main] INFO  GetManufacturer.class  - Validating Body Content..070:MG Rover
+2020-03-11 20:39:14,251 [main] INFO  GetManufacturer.class  - Validating Body Content..071:Rover
+2020-03-11 20:39:14,261 [main] INFO  GetManufacturer.class  - ****End of ManuFacturer Test****
+2020-03-11 20:39:14,655 [main] INFO  GetMainType.class  - Validating MainType..
+2020-03-11 20:39:14,656 [main] INFO  GetMainType.class  - {"page":0,"pageSize":2147483647,"totalPageCount":0,"wkda":{}}
+2020-03-11 20:39:14,659 [main] INFO  GetMainType.class  - Validating Response Header...
+2020-03-11 20:39:14,660 [main] INFO  GetMainType.class  - Validate Body header
+2020-03-11 20:39:14,683 [main] INFO  GetMainType.class  - ****End of MainType Test****
+2020-03-11 20:39:15,102 [main] INFO  GetBuildDate.class  - Validating BuildDate..
+2020-03-11 20:39:15,104 [main] INFO  GetBuildDate.class  - {"wkda":{"2001":"2001","2002":"2002","2003":"2003","2004":"2004","2005":"2005","2006":"2006","2007":"2007","2008":"2008","2009":"2009","2010":"2010"}}
+2020-03-11 20:39:15,105 [main] INFO  GetBuildDate.class  - Validating Response Header...
+2020-03-11 20:39:15,109 [main] INFO  GetBuildDate.class  - Fetching Test Data..
+2020-03-11 20:39:15,263 [main] INFO  GetBuildDate.class  - Validating Body Content..2001:2001
+2020-03-11 20:39:15,278 [main] INFO  GetBuildDate.class  - Validating Body Content..2002:2002
+2020-03-11 20:39:15,291 [main] INFO  GetBuildDate.class  - Validating Body Content..2003:2003
+2020-03-11 20:39:15,310 [main] INFO  GetBuildDate.class  - Validating Body Content..2004:2004
+2020-03-11 20:39:15,319 [main] INFO  GetBuildDate.class  - Validating Body Content..2005:2005
+2020-03-11 20:39:15,339 [main] INFO  GetBuildDate.class  - Validating Body Content..2006:2006
+2020-03-11 20:39:15,342 [main] INFO  GetBuildDate.class  - Validating Body Content..2007:2007
+2020-03-11 20:39:15,374 [main] INFO  GetBuildDate.class  - Validating Body Content..2008:2008
+2020-03-11 20:39:15,405 [main] INFO  GetBuildDate.class  - Validating Body Content..2009:2009
+2020-03-11 20:39:15,433 [main] INFO  GetBuildDate.class  - Validating Body Content..2010:2010
+2020-03-11 20:39:15,433 [main] INFO  GetBuildDate.class  - ****End of BuildDate Test****

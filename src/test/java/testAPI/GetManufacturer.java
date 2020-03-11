@@ -20,11 +20,10 @@ import static io.restassured.RestAssured.request;
 
 public class GetManufacturer {
 
-    Response response;
-    JsonPath jsonPathEvaluator;
-  //  String  path= "C:\\Users\\DANISH\\IdeaProjects\\RestAssured\\TestData_ManuFacturer.xlsx";
-   String path= "TestData_ManuFacturer.xlsx";
-    Object [][]o;;
+  private Response response;
+  private JsonPath jsonPathEvaluator;
+  private  String path= "TestData_ManuFacturer.xlsx";
+  private  Object [][]o;;
 
     private static final Logger LOGGER = LogManager.getLogger("GetManufacturer.class" );
 

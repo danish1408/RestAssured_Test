@@ -14,8 +14,8 @@ import utility.BaseClass;
 
 public class GetMainType {
 
-    Response response;
-    JsonPath jsonPathEvaluator;
+  private  Response response;
+  private  JsonPath jsonPathEvaluator;
 
     private static final Logger LOGGER = LogManager.getLogger("GetMainType.class" );
 
